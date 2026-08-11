@@ -1,6 +1,7 @@
 # lawtonhall.website
 
 # Jekyll Stuff
+- Build site in terminal w/ Jekyll: ```bundle exec jekyll serve```
 - Jekyll handles page navigation, etc. but is more lightweight than WP
 - Jekyll themes handle different types of pages, styling, header footer, etc.
 - LAYOUTS define types of pages (templates)

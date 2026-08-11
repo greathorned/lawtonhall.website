@@ -6,11 +6,9 @@
 
         <!-- Create page titles if they exist -->
         <title>
-            {% if page.title %}
-                {{ page.title | site.title }}
-            {% else %}
-                {{ site.title }}
-            {% endif %}
+            
+                About
+            
         </title>
         <link rel="stylesheet" href="/assets/css/site.css">
     </head>
@@ -34,7 +32,10 @@
             </aside>
 
         <main class = "main-content">
-            {{ content }}
+            <h1 id="about">About</h1>
+
+<p>This is the about page</p>
+
         </main>
         </div>
     </body>
