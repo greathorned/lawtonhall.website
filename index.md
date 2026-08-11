@@ -3,6 +3,6 @@ layout: default
 title: Home
 ---
 
-# Hello
+# Lawton Hall
 
-This is my Jekyll site.
+Composer, artist, builder. This is my new Jekyll site.

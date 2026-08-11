@@ -25,6 +25,10 @@ _layouts/
   work.html
   practice.html
 ```
+- default.html: shell (navigation, page width, content area, footer)
+- work: inherits from default but adds structure for portfolio pages
+- practice: notebook-type entries
+
 
 ```
 default.html

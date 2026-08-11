@@ -3,12 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale: 1.0">
-        <title>{{ page.title }} | {{ site.title }}</title>
+
+        <!-- Create page titles if they exist -->
+        <title>
+            {% if page.title %}
+                {{ page.title | site.title }}
+            {% else %}
+                {{ site.title }}
+            {% endif % }
+        </title>
         <link rel="stylesheet" href="/assets/css/site.css">
     </head>
+
     <body>
-        <main>
+        <div class = "site-layout">
+            <aside class = "sidebar">
+                <div class ="site-title">
+                    Lawton Hall
+                </div>
+                <div class = "site-subtitle">
+                    Composer
+                </div>
+
+                <nav class = "site-nav">
+                    <a href = "/about/">About</a>
+                    <a href = "/works/">Works</a>
+                    <a href = "/practice/">Practice</a>
+                    <a href = "/contact/">Contact</a>
+                </nav>
+            </aside>
+
+        <main class = "main-content">
             {{ content }}
         </main>
+        </div>
     </body>
 </html>
