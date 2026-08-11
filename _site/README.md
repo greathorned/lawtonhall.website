@@ -17,3 +17,27 @@
 - INCLUDES are reuseable bits of code
     - e.g. navigation bar
     - LAYOUTS contain INCLUDES
+
+# Site Structure
+```
+_layouts/
+  default.html
+  work.html
+  practice.html
+```
+
+```
+default.html
+├── sidebar/navigation
+└── main content
+
+work.html
+└── uses default.html
+    ├── work metadata
+    └── work content
+
+practice.html
+└── uses default.html
+    ├── date/tags
+    └── practice content
+```
