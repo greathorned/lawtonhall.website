@@ -3,12 +3,17 @@
 # Jekyll Stuff
 - Jekyll handles page navigation, etc. but is more lightweight than WP
 - Jekyll themes handle different types of pages, styling, header footer, etc.
-- Layouts define types of pages (templates)
+- LAYOUTS define types of pages (templates)
     - a layout includes header footer info, variables that I define
-    - then, these variables are filled out in the MD file, e.g.:
+    - then, these variables are filled out in the MD file as the content, e.g.:
+        ```
         ---
         layout: work
         title: Evenweave
         instrumentation: ...
         ---
         (Content Goes Here)
+        ```
+- INCLUDES are reuseable bits of code
+    - e.g. navigation bar
+    - LAYOUTS contain INCLUDES
