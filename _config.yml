@@ -1,1 +1,10 @@
 title: Lawton Hall
+
+collections:
+  works:
+    output: true
+    permalink: /works/:name/
+
+  practice:
+    output: true
+    permalink: /practice/:name/
