@@ -54,3 +54,11 @@ Temporary Items
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
