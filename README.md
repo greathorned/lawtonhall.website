@@ -1,7 +1,9 @@
 # lawtonhall.website
 
 # Jekyll Stuff
-- Build site in terminal w/ Jekyll: ```bundle exec jekyll serve```
+- make sure only one terminal is running
+- use Ctrl+C to stop the running server
+- Build site in terminal w/ Jekyll and start server: ```bundle exec jekyll serve```
 - Jekyll handles page navigation, etc. but is more lightweight than WP
 - Jekyll themes handle different types of pages, styling, header footer, etc.
 - LAYOUTS define types of pages (templates)
@@ -18,6 +20,19 @@
 - INCLUDES are reuseable bits of code
     - e.g. navigation bar
     - LAYOUTS contain INCLUDES
+
+## media container on works pages
+
+multi-line YAML fields:
+
+```
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/VIDEO_ID"
+    title="Air Lines"
+    allowfullscreen>
+  </iframe>
+```
 
 # Site Structure
 ```

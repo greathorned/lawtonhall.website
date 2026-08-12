@@ -1,0 +1,17 @@
+---
+layout: work
+title: Staring Contest
+brief_instrumentation: for voice, chamber ensemble, and electronics
+year: 2024
+date: 2024-09-01
+category: humans-machines
+duration:
+instrumentation: high voice (A3-F5), fl., cl., vln., vc., 
+tags:
+---
+
+Sean Williamson’s short story “Never the Hero” felt oddly familiar to me when I first read it, as though it tapped into something strangely universal about coming of age in the Upper Midwest. I was especially drawn to the rhythmic character of Williamson’s prose and the way a handful of carefully chosen moments could suggest an entire life beyond the page.
+
+The text of *Staring Contest* is built from fragments of “Never the Hero,” and these excerpts are only small windows into the story’s much larger world. Subtle electronics and contrapuntal, almost vocal-like instrumental lines suggest memories, conversations, and unseen lives that envelop the singer, hinting at a much larger world beyond the words themselves.
+
+*Staring Contest* reflects the waves of confusion, despair, and hope that flow throughout Williamson’s story. The piece is haunted by its opening question: “How can you know if someone’s dead if you’ve never seen them alive?” Memories and visions drift through the musical texture, offering moments of solace while allowing that question to linger after the final words have been sung.

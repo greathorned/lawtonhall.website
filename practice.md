@@ -6,7 +6,7 @@ permalink: /practice/
 
 # Practice
 
-{% assign entries = site.practice | sort: "date" | reverse %}
+<!-- {% assign entries = site.practice | sort: "date" | reverse %} -->
 
 {% for entry in entries %}
 - [{{ entry.title }}]({{ entry.url }})

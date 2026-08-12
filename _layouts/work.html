@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="work">
+
+  <a class="work-back-link" href="/works/">
+    ⇠ All Works
+  </a>
+
+  <div class="work-heading">
+    <div class="work-heading-left">
+      <h1 class="work-title">{{ page.title }}</h1>
+    </div>
+
+    <div class="work-heading-right">
+      {% if page.year %}
+        <div class="work-year">{{ page.year }}</div>
+      {% endif %}
+
+      {% if page.brief_instrumentation %}
+        <div class="work-brief-instrumentation">
+          {{ page.brief_instrumentation }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="work-meta">
+
+    {% if page.instrumentation %}
+      <p>
+        <strong>Instrumentation:</strong>
+        {{ page.instrumentation }}
+      </p>
+    {% endif %}
+
+    {% if page.duration %}
+      <p>
+        <strong>Duration:</strong>
+        {{ page.duration }}
+      </p>
+    {% endif %}
+
+  </div>
+
+  <div class="work-content">
+    {{ content }}
+  </div>
+
+</article>
