@@ -7,6 +7,12 @@ date: 2024-12-01
 category: humans
 duration: 6½ minutes
 instrumentation: soprano, alto, tenor, bari sax
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/yTDtwwWRYxw"
+    title="Being as Such"
+    allowfullscreen>
+  </iframe>
 ---
 
 Thomas Kinkade’s mass-produced paintings of glowing cottages, luminous windows, and impossibly serene landscapes have become emblematic of a certain kind of kitsch. Reproduced endlessly on calendars and collectibles, they depict an idealized world scrubbed of violence, contradiction, and uncertainty. Milan Kundera famously described kitsch as a “categorical agreement with being as such,” an aesthetic worldview that denies the very existence of “shit.” Complexity dissolves into a haze of comforting certitude in Kinkade’s aggressively agreeable shopping-mall art.

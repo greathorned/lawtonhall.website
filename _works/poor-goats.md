@@ -7,6 +7,12 @@ date: 2026-07-25
 category: humans
 duration: 4½ minutes
 instrumentation: soprano and piano
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/dUYfCwcaZJc"
+    title="Oh You Poor Goats"
+    allowfullscreen>
+  </iframe>
 ---
 
 *Oh You Poor Goats*

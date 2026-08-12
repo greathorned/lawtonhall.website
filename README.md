@@ -23,6 +23,7 @@
 
 ## media container on works pages
 
+media container can use different types of media (e.g. images)
 multi-line YAML fields:
 
 ```

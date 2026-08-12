@@ -8,6 +8,12 @@ category: humans-machines
 duration: 5½ minutes
 instrumentation: piano, electronics, and video (fixed media)
 tags:
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/PZJmE5y0zmU"
+    title="M.M."
+    allowfullscreen>
+  </iframe>
 ---
 
 The clockwork metronome was invented by Dietrich Nikolaus Winkel in 1814 but was made famous by Johann Nepomuk Maelzel, who enclosed Winkel’s design in an iconic wooden obelisk, added tempo markings along the pendulum, and mass-produced it under the name Maelzel’s Metronome. Beethoven and other prominent European composers championed Maelzel’s device, gradually replacing embodied tempo indications like moderato (“moderately”) or andante (“walking pace”) with precise numerical indications abbreviated in scores with the marking “M.M.”

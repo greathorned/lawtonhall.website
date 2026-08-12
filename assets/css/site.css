@@ -1,19 +1,87 @@
+:root {
+    --font-serif: "Noto Serif", serif;
+    --font-sans: "Inter", sans-serif;
+    --rule: 1.5px dotted currentColor;
+}
+
 body {
-    font-family: sans-serif;
-    margin: 3rem;
+    font-family: var(--font-sans);
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+}
+
+a:hover {
+    text-decoration-style: solid;
+}
+
+hr {
+    border: 0;
+    border-top: var(--rule);
+    margin: 1rem 0;
 }
 
 .site-layout {
     display: grid;
-    grid-template-columns: 220px minmax(0, 1fr);
+    grid-template-columns: 350px minmax(0, 1fr);
     min-height: 100vh;
 }
 
 .sidebar {
-    padding: 2rem;
+    position: sticky;
+    overflow: visible;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* z index for gradient */
+    z-index: 2;
+
+    align-self: start;
+    height: 100vh;
+    box-sizing: border-box;
+
+    padding: 3rem;
+    padding-right: 0.1rem;
+    background: #d9e8e3;
+
+    text-align: right;
+}
+
+/* Gradient effect */
+.sidebar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    /* z index for gradient */
+    z-index: 1;
+
+    /* adjust width of effect: */
+    right: -100px;
+    width: 100px;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(
+        to right,
+        #d9e8e3 0%,
+        rgba(217, 232, 227, 0) 100%
+    );
 }
 
 .site-title {
+    font-family: var(--font-serif);
+    font-size: 3.5rem;
+    font-weight: 150;
+    font-style: italic;
+    letter-spacing: -0.1rem;
     margin-bottom: 2rem;
 }
 
@@ -24,8 +92,13 @@ body {
 }
 
 .main-content {
-    max-width: 1000px;
-    padding: 2rem 3rem;
+    width: 100%;
+    min-width: 0;
+    /* z index for gradient */
+    z-index: 3;
+    box-sizing: border-box;
+    padding: 3rem;
+    padding-left: 5rem;
 }
 
 /* MOBILE */
@@ -35,9 +108,39 @@ body {
         display: block;
     }
 
+    .sidebar {
+        position: relative;
+        height: auto;
+        text-align: left;
+        padding: 1rem;
+        z-index: 1;
+    }
+
+    .sidebar::after {
+        top: 100%;
+        right: 0;
+        bottom: auto;
+
+        z-index: 1;
+        width: 100%;
+        height: 80px;
+
+        background: linear-gradient(
+            to bottom,
+            #d9e8e3 0%,
+            rgba(217, 232, 227, 0) 100%
+        );
+    }
+
     .site-nav {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .main-content {
+        position: relative;
+        padding: 1rem;
+        z-index: 2;
     }
 }
 
@@ -66,11 +169,14 @@ body {
     display: flex;
     align-items: flex-end;
     margin-bottom: 1.5rem;
-    border-bottom: 1.5px dotted;
+    border-bottom: 1.25px dotted;
 }
 
 .works-category-header h2 {
     margin: 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 800;
 }
 
 .work-index-item {
@@ -78,16 +184,17 @@ body {
 }
 
 .work-index-title {
-    display: block;
-    font-size: 1.25rem;
-    font-weight: 600;
+    display: inline-block;
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 200;
     font-style: italic;
-    text-decoration: none;
 }
 
 .work-index-instrumentation {
     margin-top: 0.2rem;
     font-size: 0.95rem;
+    font-weight: 300;
 }
 
 /* PROGRAM NOTES */
@@ -99,9 +206,20 @@ body {
 /* WORKS PAGES */
 
 .work-back-link {
-  display: inline-block;
-  margin-bottom: 2rem;
-  text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+.work-back-arrow {
+    text-decoration: none;
+    user-select: none;
+}
+
+.work-back-link a {
+    /* Usually unnecessary if your global link styles already do this */
+    color: inherit;
 }
 
 .work-heading {
@@ -110,8 +228,8 @@ body {
   gap: 2rem;
   align-items: start;
 
-  padding-bottom: 1.5rem;
-  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   border-bottom: 1.5px dotted;
 }
 
@@ -142,4 +260,26 @@ body {
 
 .work-brief-instrumentation {
   margin-top: 0.25rem;
+}
+
+.work-media {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1.5px dotted;
+}
+
+.work-media iframe,
+.work-media img,
+.work-media video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.work-media iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
 }

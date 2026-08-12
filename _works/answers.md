@@ -7,6 +7,12 @@ date: 2023-08-01
 category: humans
 duration: 12 minutes
 instrumentation: 2 oboes, 2 clarinets, 2 bassoons
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/vx0HUUazQW4"
+    title="Answers"
+    allowfullscreen>
+  </iframe>
 ---
 
 Antiphons in the Anthropocene

@@ -8,6 +8,12 @@ category: humans
 duration: 9 minutes
 instrumentation: solo cello in extended just intonation
 tags:
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/QsKl8veUulk"
+    title="Sanguine"
+    allowfullscreen>
+  </iframe>
 ---
 
 The Covid-19 pandemic reaffirmed for me that music is fundamentally a social activity, best experienced in a room with fellow human beings. Yet these hardships also created new opportunities for collaboration across great distances, and I am grateful for the many remote projects I was able to realize during this difficult year.

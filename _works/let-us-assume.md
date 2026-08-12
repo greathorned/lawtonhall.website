@@ -8,6 +8,12 @@ category: humans-machines
 duration: 6 minutes
 instrumentation: SATB vocal quartet and electronics (fixed media)
 tags:
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/cRHZnIGpFuk"
+    title="Let Us Assume"
+    allowfullscreen>
+  </iframe>
 ---
 
 In his 1854 book *An Investigation of the Laws of Thought: On Which are Founded the Mathematical Theories of Logic and Probabilities*, English mathematician George Boole proposed a rigorous system for testing logical arguments by assigning ones and zeros to true and false statements. His method applied the laws of mathematics to human thought. These innovations laid the groundwork for computing and the zeroes and ones that make up binary code are called “Booleans” in his honor.

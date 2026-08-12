@@ -8,7 +8,15 @@ category: humans
 duration: 10 minutes
 instrumentation: solo speaking vibraphonist
 tags:
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/KlOKwZSimtU"
+    title="All Your Thens for Now"
+    allowfullscreen>
+  </iframe>
 ---
+
+
 
 Dream-Variations on Mingus
 

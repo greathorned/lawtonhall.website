@@ -6,8 +6,14 @@ year: 2024
 date: 2024-09-01
 category: humans-machines
 duration:
-instrumentation: high voice (A3-F5), fl., cl., vln., vc., 
+instrumentation: high voice (A3-F5), fl., cl., vln., vc., pno., 2 perc., electronics (fixed media)
 tags:
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/7KmD4HIX8qI"
+    title="Staring Contest"
+    allowfullscreen>
+  </iframe>
 ---
 
 Sean Williamson’s short story “Never the Hero” felt oddly familiar to me when I first read it, as though it tapped into something strangely universal about coming of age in the Upper Midwest. I was especially drawn to the rhythmic character of Williamson’s prose and the way a handful of carefully chosen moments could suggest an entire life beyond the page.

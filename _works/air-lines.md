@@ -5,8 +5,13 @@ brief_instrumentation: for solo flute
 year: 2026
 date: 2026-07-18
 category: humans
-instrumentation: solo flute
 duration: 7 minutes
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/F0RN_232d9A"
+    title="Air Lines"
+    allowfullscreen>
+  </iframe>
 ---
 
 <!-- <div class = "program-note centered"> -->

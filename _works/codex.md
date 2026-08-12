@@ -8,7 +8,21 @@ category: humans
 duration: 11 minutes
 instrumentation: 4 drum sets
 tags:
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/M8A96E31KVw"
+    title="Codex I: The Essence Of"
+    allowfullscreen>
+  </iframe>
 ---
+
+<div id="work-media">
+  <iframe
+    src="https://www.youtube.com/embed/Pj3FAwoPZww"
+    title="Codex II: A Dialogue"
+    allowfullscreen>
+  </iframe>
+</div>
 
 Drum Quartet Arcana
 

@@ -4,9 +4,10 @@ layout: default
 
 <article class="work">
 
-  <a class="work-back-link" href="/works/">
-    ⇠ All Works
-  </a>
+  <div class="work-back-link">
+      <span class="work-back-arrow">⇠</span>
+      <a href="/works/">All Works</a>
+  </div>
 
   <div class="work-heading">
     <div class="work-heading-left">
@@ -25,6 +26,12 @@ layout: default
       {% endif %}
     </div>
   </div>
+
+  {% if page.media %}
+    <div class="work-media">
+        {{ page.media }}
+    </div>
+  {% endif %}
 
   <div class="work-meta">
 

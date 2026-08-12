@@ -7,6 +7,12 @@ date: 2024-07-01
 category: humans
 duration: 5½ minutes
 instrumentation: 2 trumpets (B-flat or C), horn, trombone, tuba or bass trombone
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/nohThR_hGLA"
+    title="Gray Overtures"
+    allowfullscreen>
+  </iframe>
 ---
 
 Brass instruments excel at big musical moments. Composers rely on the brass section when a piece needs to “go to 11” and knock the socks off an audience with fanfares, overtures, soaring climaxes, and thunderous marches. As an erstwhile horn player, I knew that I wanted to write something big, brash, and bold when I was approached to write a brass quintet for the 2024 Lutheran Summer Music Festival. And yet, as a composer, I’m most interested in expressing complex moods and emotions through music. I’m drawn to subtlety, ambiguity, and uncertainty: the shades of gray that music can express without words.

@@ -7,6 +7,12 @@ date: 2025-08-18
 category: humans
 duration: 8 minutes
 instrumentation: fl. 1 (picc.), fl. 2, ob. 1 + 2, cl. 1, cl. 2 (bs. cl.), horn 1 + 2, bsn. 1 + 2 
+media: |
+  <iframe
+    src="https://www.youtube.com/embed/3f232j51fK8"
+    title="Mother of Swirl"
+    allowfullscreen>
+  </iframe>
 ---
 
 I’m strangely fascinated by iridescence. There’s something magical and nostalgic about the interplay of light, color, and movement in soap bubbles, oil slicks, opals, and crinkly cellophane.
