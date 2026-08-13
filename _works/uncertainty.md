@@ -22,8 +22,13 @@ From “First Thoughts” to “Convictions,” “Misgivings,” “Wavers,” 
 
 *(un)certainty* is a fluid multimedia project that has taken several forms over the years, including versions with robotic woodblocks and interactive light sculptures. The work was developed in collaboration with percussionist Abby Fisher and multimedia artist Mare Hirsch. Mare's projects responding to the Muon g-2 experiment at Fermilab inspired the central questions of the piece.
 
-<iframe
-    src="https://www.youtube.com/embed/ccO3hHgYE54"
-    title="(un)certainty (Abby Fisher NAU)"
-    allowfullscreen>
-</iframe>
+---
+
+<div class = "full-width-media">
+  <iframe
+      src="https://www.youtube.com/embed/ccO3hHgYE54"
+      title="(un)certainty (Abby Fisher NAU)"
+      allowfullscreen>
+  </iframe>
+</div>
+

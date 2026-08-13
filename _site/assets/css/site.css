@@ -1,3 +1,5 @@
+/* DEFAULTS */
+
 :root {
     --font-serif: "Noto Serif", serif;
     --font-sans: "Inter", sans-serif;
@@ -27,11 +29,74 @@ hr {
     margin: 1rem 0;
 }
 
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin: 2rem 0 1rem;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-sans);
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+h4, h5 {
+    font-family: var(--font-serif);
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 250;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* block quote */
+blockquote {
+    margin: 2rem 0;
+    padding-left: 2rem;
+    border-left: var(--rule);
+}
+
+/* inline code */
+code {
+    font-family: monospace;
+}
+
+/* code block */
+
+pre {
+    padding: 1rem;
+    background-color: #fbe4e2;
+    border-radius: 0.4rem;
+}
+
+/* MAIN CONTAINER */
+
 .site-layout {
     display: grid;
     grid-template-columns: 350px minmax(0, 1fr);
     min-height: 100vh;
 }
+
+/* MAIN MENU */
 
 .sidebar {
     position: sticky;
@@ -82,7 +147,20 @@ hr {
     font-weight: 150;
     font-style: italic;
     letter-spacing: -0.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.1rem;
+}
+
+.site-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-subtitle {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
 }
 
 .site-nav {
@@ -111,7 +189,7 @@ hr {
     .sidebar {
         position: relative;
         height: auto;
-        text-align: left;
+        text-align: right;
         padding: 1rem;
         z-index: 1;
     }
@@ -133,8 +211,13 @@ hr {
     }
 
     .site-nav {
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+    }
+
+    .site-nav a {
+        text-align: center;
     }
 
     .main-content {
@@ -169,7 +252,7 @@ hr {
     display: flex;
     align-items: flex-end;
     margin-bottom: 1.5rem;
-    border-bottom: 1.25px dotted;
+    border-bottom: var(--rule);
 }
 
 .works-category-header h2 {
@@ -220,24 +303,29 @@ hr {
 .work-back-link a {
     /* Usually unnecessary if your global link styles already do this */
     color: inherit;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    /* font-weight: 200; */
 }
 
 .work-heading {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 2rem;
-  align-items: start;
+  align-items: center;
 
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 1.5px dotted;
+  border-bottom: var(--rule);
 }
 
 .work-title {
   margin: 0;
-  font-size: 3rem;
+  font-family: var(--font-serif);
+  font-weight: 150;
+  font-size: 3.25rem;
   font-style: italic;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .work-heading-right {
@@ -266,7 +354,7 @@ hr {
   width: 100%;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1.5px dotted;
+  border-bottom: var(--rule);
 }
 
 .work-media iframe,
@@ -282,4 +370,28 @@ hr {
     width: 100%;
     aspect-ratio: 16 / 9;
     border: 0;
+}
+
+/* FULL WIDTH MEDIA  */
+
+.full-width-media {
+    width: 100%
+}
+
+.full-width-media iframe,
+.full-width-media img,
+.full-width-media video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* 16:9 video embeds */
+.full-width-media iframe {
+    aspect-ratio: 16 / 9;
+}
+
+/* Google Drive PDFs */
+.score-preview iframe {
+    height: 75vh;
 }

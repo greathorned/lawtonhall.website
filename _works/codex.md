@@ -14,15 +14,16 @@ media: |
     title="Codex I: The Essence Of"
     allowfullscreen>
   </iframe>
----
 
-<div id="work-media">
+  <hr>
+
   <iframe
     src="https://www.youtube.com/embed/Pj3FAwoPZww"
     title="Codex II: A Dialogue"
     allowfullscreen>
   </iframe>
-</div>
+  
+---
 
 Drum Quartet Arcana
 

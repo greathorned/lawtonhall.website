@@ -23,17 +23,17 @@
         <div class = "site-layout">
             <aside class = "sidebar">
                 <div class ="site-title">
-                    Lawton&nbsp;Hall
+                    <a href="{{ '/' | relative_url }}">Lawton&nbsp;Hall</a>
                 </div>
                 <div class = "site-subtitle">
-                    Composer
+                    └── Composer
                 </div>
 
                 <nav class = "site-nav">
-                    <a href = "/about/">About</a>
-                    <a href = "/works/">Works</a>
-                    <a href = "/practice/">Practice</a>
-                    <a href = "/contact/">Contact</a>
+                    <a href="{{ '/about/' | relative_url }}">About</a>
+                    <a href="{{ '/works/' | relative_url }}">Works</a>
+                    <a href="{{ '/practice/' | relative_url }}">Practice</a>
+                    <a href="{{ '/contact/' | relative_url }}">Contact</a>
                 </nav>
             </aside>
 

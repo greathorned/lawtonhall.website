@@ -21,6 +21,22 @@
     - e.g. navigation bar
     - LAYOUTS contain INCLUDES
 
+# Style
+
+- Colors: `#D9E8E3 #F7B1AB #A36691 #DDB169`
+- UTF-8 icons: https://www.utf8icons.com/
+- use variables for fonts and dotted lines: `var(--rule);`
+
+# Future things to add
+
+Once your site matures, you'll likely add things like:
+favicon.ico
+site.webmanifest
+robots.txt
+sitemap.xml
+
+# Works Pages
+
 ## media container on works pages
 
 media container can use different types of media (e.g. images)
@@ -33,6 +49,17 @@ media: |
     title="Air Lines"
     allowfullscreen>
   </iframe>
+```
+
+use div class full-width-media for embeds in main-content that should be full width
+
+## multi-line text in heading right section:
+
+```
+brief_instrumentation: |
+  for solo flute<br>
+  addition text<br>
+  more text
 ```
 
 # Site Structure
@@ -61,4 +88,15 @@ practice.html
 └── uses default.html
     ├── date/tags
     └── practice content
+```
+# Text Ornaments
+
+```
+·
+
+⠂
+
+◦
+
+⸱
 ```

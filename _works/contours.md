@@ -22,7 +22,9 @@ Pauline Oliveros’ Sonic Meditation *Environmental Dialogue* instructs performe
 
 *Contours* can be played by two soloists or two groups of players and offers performers multiple ways to engage with the work. It can be enjoyed privately or presented publicly, with the app’s interface and sounds projected in a performance space. Each region of the map features a distinct harmonic and timbral personality, allowing performers to start at a random location or focus on a specific area. Navigation can be guided purely by sound or by enabling an overlay that displays the player’s position on the map grid.
 
-<div id="work-media">
+---
+
+<div class = "full-width-media">
   <iframe
     src="https://www.youtube.com/embed/f5qBHU-tNnE"
     title="Contours (Jennifer and Alec Burke)"

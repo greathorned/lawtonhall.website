@@ -14,19 +14,30 @@ media: |
   </iframe>
 ---
 
-<!-- <div class = "program-note centered"> -->
-*Air Lines* is angel-music  
-*Air Lines* is sky-music  
-*Air Lines* floats & flies above roads & maps & tunnels & telephone wires  
+<div class="program-note centered">
+<p><em>Air Lines</em> is angel-music<br>
+<em>Air Lines</em> is sky-music<br>
+<em>Air Lines</em> floats &amp; flies above roads &amp; maps &amp; tunnels &amp; telephone wires</p>
 
-*Air Lines* is in two movements:
+<p><em>Air Lines</em> is in two movements:</p>
 
-reverent/restless is prayer-music & stillness & distraction & delight  
-biblically-accurate angel is cherubs & devils & the divine & the mundane  
+<p><em>reverent/restless</em> is prayer-music &amp; stillness &amp; distraction &amp; delight<br>
+<em>biblically-accurate angel</em> is cherubs &amp; devils &amp; the divine &amp; the mundane</p>
 
-*Air Lines* alights & gets its hands (& wings) dirty  
-*Air Lines* is dirt-music  
-*Air Lines* is angel-music  
+<p><em>Air Lines</em> alights &amp; gets its hands (&amp; wings) dirty<br>
+<em>Air Lines</em> is dirt-music<br>
+<em>Air Lines</em> is angel-music</p>
 
-Be not afraid
-<!-- </div> -->
+<p>Be not afraid</p>
+</div>
+
+---
+
+## Score Preview
+
+<div class="full-width-media score-preview">
+  <iframe 
+    height="600px" 
+    src="https://drive.google.com/file/d/18i9BjLpvseZn5IL9UTKic3l2CDt7bGEr/preview">
+  </iframe>
+<div>
