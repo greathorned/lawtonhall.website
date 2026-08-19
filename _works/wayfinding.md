@@ -6,7 +6,15 @@ year: 2021
 date: 2021-10-15
 category: humans
 duration: 9 minutes
-instrumentation: violin, viola, cello, bass
+instrumentation: |
+  <ul>
+    <li>Violin</li>
+    <li>Viola</li>
+    <li>Cello</li>
+    <li>Bass</li>
+  </ul>
+purchase_link: https://lawtonhall.gumroad.com/l/wayfinding
+purchase_text: Purchase Score + Parts
 tags:
 media: |
   <iframe

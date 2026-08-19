@@ -6,7 +6,21 @@ year: 2025
 date: 2025-08-18
 category: humans
 duration: 8 minutes
-instrumentation: fl. 1 (picc.), fl. 2, ob. 1 + 2, cl. 1, cl. 2 (bs. cl.), horn 1 + 2, bsn. 1 + 2 
+instrumentation: |
+  <ul>
+    <li>Flute 1 (Piccolo)</li>
+    <li>Flute 2</li>
+    <li>Oboe 1</li>
+    <li>Oboe 2</li>
+    <li>Clarinet 1</li>
+    <li>Clarinet 2 (Bass Clarinet)</li>
+    <li>Bassoon 1</li>
+    <li>Bassoon 2</li>
+    <li>Horn 1</li>
+    <li>Horn 2</li>
+  </ul>
+purchase_link: https://lawtonhall.gumroad.com/l/mother-of-swirl
+purchase_text: Purchase Score + Parts
 media: |
   <iframe
     src="https://www.youtube.com/embed/3f232j51fK8"
@@ -24,3 +38,14 @@ As a composer, I'm interested in what the nautilus could mean *within music itse
 Several longstanding interests of mine converged on the nautilus: the sensory wonder of iridescence, the mathematical elegance of the logarithmic spiral, and the many cultural meanings attached to this remarkable object. These ideas shaped both the underlying structure of the piece and the intuitive decisions I made while composing it.
 
 In *Mother of Swirl*, melodies often remain unchanged while harmony and orchestration shift around them, like an iridescent surface changing with the light. The same musical material appears in fast and slow sections, echoing the spiral’s self-similarity, while gradually lengthening durations reflect the nautilus’ expanding chambers. And *Mother of Swirl* features prominent horn parts, because the horn is obviously the swirliest instrument.
+
+---
+
+## Score Preview
+
+<div class="full-width-media score-preview">
+  <iframe 
+    height="600px" 
+    src="https://drive.google.com/file/d/1wfZAj9_UxtpzKzZQpl17ZdKdYHxran_V/preview">
+  </iframe>
+<div>

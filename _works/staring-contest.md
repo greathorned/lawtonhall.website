@@ -5,8 +5,22 @@ brief_instrumentation: for voice, chamber ensemble, and electronics
 year: 2024
 date: 2024-09-01
 category: humans-machines
-duration:
-instrumentation: high voice (A3-F5), fl., cl., vln., vc., pno., 2 perc., electronics (fixed media)
+credits: Text by Sean Williamson
+duration: 5½ minutes
+instrumentation: |
+  <ul>
+    <li>High Voice (A3-F5)</li>
+    <li>Flute</li>
+    <li>Clarinet</li>
+    <li>Violin</li>
+    <li>Cello</li>
+    <li>Piano</li>
+    <li>Percussion 1</li>
+    <li>Percussion 2</li>
+    <li>Fixed-Media Electronics</li>
+  </ul>
+purchase_link: https://lawtonhall.gumroad.com/l/staring-contest
+purchase_text: Purchase Performance Materials
 tags:
 media: |
   <iframe

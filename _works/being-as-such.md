@@ -6,7 +6,15 @@ year: 2024
 date: 2024-12-01
 category: humans
 duration: 6½ minutes
-instrumentation: soprano, alto, tenor, bari sax
+instrumentation: |
+  <ul>
+    <li>Soprano Sax</li>
+    <li>Alto Sax</li>
+    <li>Tenor Sax</li>
+    <li>Bari Sax</li>
+  </ul>
+purchase_link: https://lawtonhall.gumroad.com/l/being-as-such
+purchase_text: Purchase Score + Parts
 media: |
   <iframe
     src="https://www.youtube.com/embed/yTDtwwWRYxw"
@@ -20,3 +28,14 @@ Thomas Kinkade’s mass-produced paintings of glowing cottages, luminous windows
 As a composer, I’m drawn to musical materials often dismissed as kitsch: consonant harmonies, singable melodies, and clear, recognizable forms. But I also have a natural aversion to reassuring predictability and musical clichés. My instinct is to complicate even the simplest ideas and explore the ambiguity of familiar musical materials.
 
 *Being as Such* explores this tension directly. The piece centers on a sentimental, jazz-inflected melody that weaves through the quartet and invites a sense of familiarity. This line wanders through shifting rhythmic and harmonic terrain that continually destabilizes its apparent simplicity. The piece lingers in the tension between comfort and uncertainty, exploring how simplicity can invite deeper complexity without becoming a "categorical agreement with being as such."
+
+---
+
+## Study Score
+
+<div class="full-width-media score-preview">
+  <iframe 
+    height="600px" 
+    src="https://drive.google.com/file/d/1CQNr7atfYEd96UO9XJcz-GQw92AqSQd7/preview">
+  </iframe>
+<div>

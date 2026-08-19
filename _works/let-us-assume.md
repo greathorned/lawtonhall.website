@@ -6,7 +6,13 @@ year: 2023
 date: 2023-10-01
 category: humans-machines
 duration: 6 minutes
-instrumentation: SATB vocal quartet and electronics (fixed media)
+instrumentation: |
+  <ul>
+    <li>SATB Vocal Quartet</li>
+    <li>Fixed-Media Electronics</li>
+  </ul>
+purchase_link: https://lawtonhall.gumroad.com/l/let-us-assume
+purchase_text: Purchase Performance Materials
 tags:
 media: |
   <iframe
@@ -21,3 +27,14 @@ In his 1854 book *An Investigation of the Laws of Thought: On Which are Founded 
 Boole was also a deeply religious person and did not view his faith as incompatible with the rational world of numbers. In an unusual chapter in *Laws of Thought*, he takes Samuel Clarke’s argument “the self-existent thing must of necessity be infinite and omnipresent,” breaks it into variables and axioms, and attempts to deduce the nature of God mathematically. While he succeeds in verifying the logical consistency of Clarke’s claim, Boole concedes that “a desire for absolute certainty” may not “satisfy the demands of the speculative intellect.”
 
 I was drawn to the recurring phrase “let us assume” that occurs throughout Boole’s writings. Both logic and faith offer answers—certainty, even—but also require accepting underlying assumptions about the nature of reality. *Let Us Assume* combines a vocal quartet with the sounds of a modular synthesizer, evoking ancient questions of faith amidst sounds made possible by Boole’s contributions to mathematics.
+
+---
+
+## Score Preview
+
+<div class="full-width-media score-preview">
+  <iframe 
+    height="600px" 
+    src="https://drive.google.com/file/d/1rELn_JyFaTzK7aTqXuFC2CaitTVljvAV/preview">
+  </iframe>
+<div>

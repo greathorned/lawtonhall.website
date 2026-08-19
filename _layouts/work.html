@@ -15,15 +15,29 @@ layout: default
     </div>
 
     <div class="work-heading-right">
-      {% if page.year %}
-        <div class="work-year">{{ page.year }}</div>
-      {% endif %}
+      <div class="work-heading-meta">
+        {% if page.year %}
+          <div class="work-year">{{ page.year }}</div>
+        {% endif %}
 
-      {% if page.brief_instrumentation %}
-        <div class="work-brief-instrumentation">
-          {{ page.brief_instrumentation }}
+        {% if page.brief_instrumentation %}
+          <div class="work-brief-instrumentation">
+            {{ page.brief_instrumentation }}
+          </div>
+        {% endif %}
+      </div>
+
+      {% if page.purchase_link %}
+        <div class="work-purchase">
+          <a
+            href="{{ page.purchase_link }}"
+            target="_blank"
+            rel="noopener">
+              Purchase<span class="purchase-right-arrow">&nbsp;⭢</span>
+          </a>
         </div>
       {% endif %}
+
     </div>
   </div>
 
@@ -34,20 +48,40 @@ layout: default
   {% endif %}
 
   <div class="work-meta">
+    <div class="work-meta-left">
+      {% if page.credits %}
+        <div class="work-meta-item">
+          <strong>{{ page.credits }}</strong>
+        </div>
+      {% endif %}
+      {% if page.duration %}
+        <div class="work-meta-item">
+          <strong>Duration:</strong>
+          {{ page.duration }}
+        </div>
+      {% endif %}
+      {% if page.instrumentation %}
+        <div class="work-meta-item">
+          <strong>Instrumentation:</strong>
+          {{ page.instrumentation }}
+        </div>
+      {% endif %}
+    </div>
 
-    {% if page.instrumentation %}
-      <p>
-        <strong>Instrumentation:</strong>
-        {{ page.instrumentation }}
-      </p>
+    {% if page.purchase_link %}
+    <div class="work-meta-right">
+      <div class="work-meta-purchase">
+          <a 
+            href="{{ page.purchase_link }}"
+            target="_blank" 
+            rel="noopener">
+              {{ page.purchase_text | default: "Purchase" }}
+              <span class="purchase-right-arrow">&nbsp;⭢</span>
+          </a>
+      </div>
+    </div>
     {% endif %}
 
-    {% if page.duration %}
-      <p>
-        <strong>Duration:</strong>
-        {{ page.duration }}
-      </p>
-    {% endif %}
 
   </div>
 

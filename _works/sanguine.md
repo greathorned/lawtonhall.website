@@ -8,6 +8,8 @@ category: humans
 duration: 9 minutes
 instrumentation: solo cello in extended just intonation
 tags:
+purchase_link: https://lawtonhall.gumroad.com/l/sanguine
+purchase_text: Purchase Score
 media: |
   <iframe
     src="https://www.youtube.com/embed/QsKl8veUulk"

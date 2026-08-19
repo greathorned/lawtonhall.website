@@ -5,6 +5,13 @@ brief_instrumentation: for soprano and piano
 year: 2026
 date: 2026-07-25
 category: humans
+credits: |
+  Text by <a 
+    href="https://www.arzarif.com/"
+    target="_blank" 
+    rel="noopener">
+  A.&nbsp;R.&nbsp;Zarif
+  </a>
 duration: 4½ minutes
 instrumentation: soprano and piano
 media: |

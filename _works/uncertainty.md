@@ -6,7 +6,13 @@ year: 2024
 date: 2024-08-01
 category: humans-machines
 duration: 30 minutes
-instrumentation: solo marimba and electronics (fixed media)
+instrumentation: |
+  <ul>
+    <li>Marimba</li>
+    <li>Fixed-Media Electronics (or Robots)</li>
+  </ul>
+purchase_link: https://lawtonhall.gumroad.com/l/uncertainty
+purchase_text: Purchase Performance Materials
 tags:
 media: |
   <iframe

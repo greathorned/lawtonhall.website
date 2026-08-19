@@ -6,6 +6,9 @@ year: 2026
 date: 2026-07-18
 category: humans
 duration: 7 minutes
+instrumentation: solo flute
+purchase_link: https://lawtonhall.gumroad.com/l/air-lines
+purchase_text: Purchase Score
 media: |
   <iframe
     src="https://www.youtube.com/embed/F0RN_232d9A"
@@ -30,6 +33,10 @@ media: |
 
 <p>Be not afraid</p>
 </div>
+
+---
+
+*Air Lines* was written for [Grace Wang](https://www.gracewangflute.com/) and premiered at the 2026 Wintergreen Music Festival in Virginia.
 
 ---
 

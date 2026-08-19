@@ -6,7 +6,12 @@ year: 2021
 date: 2021-08-01
 category: humans
 duration: 11 minutes
-instrumentation: 4 drum sets
+instrumentation: |
+  <br>four minimal drum sets<br>
+  (2 rack toms, kick, 2 woodblocks, hi-hat, sizzle/crash cymbal (each))
+
+purchase_link: https://lawtonhall.gumroad.com/l/codex
+purchase_text: Purchase Score + Parts
 tags:
 media: |
   <iframe

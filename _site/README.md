@@ -35,7 +35,27 @@ site.webmanifest
 robots.txt
 sitemap.xml
 
+# Home Page
+
+"frontispiece" image, like cover of a book
+
+or images that lead to sub-sections of the site (works, practice, about, contact)
+
+definitely NOT a news feed
+
 # Works Pages
+
+## Study Scores
+
+- make sure permissions prohibit downloads
+- from google drive: right click > open in new tab
+- change `/view` in url to `/preview`
+- add to iframe
+
+## Score Store
+
+- use `purchase_link` for url to gumroad
+- `purchase_text:` is the displayed text
 
 ## media container on works pages
 
@@ -61,6 +81,16 @@ brief_instrumentation: |
   addition text<br>
   more text
 ```
+
+# Contact page
+
+look at email forwarding, so I could have lawton@lawtonhall.com go to my gmail
+
+# Analytics
+
+consider Umami (no cookies, free plan)
+
+Repohistory: https://repohistory.com/
 
 # Site Structure
 ```
