@@ -22,7 +22,7 @@ media: |
   </iframe>
 ---
 
-Antiphons in the Anthropocene
+#### *Antiphons in the Anthropocene*
 
 *Answers* is a piece for two woodwind trios. Musical ideas pass between the two halves of the ensemble and among individual players, recalling the antiphonal works of Venetian Renaissance composers, the call-and-response traditions of blues and gospel, and echo effects in electronic music. These musical exchanges create patterns of expectation. Every echo implies a source, calls invite responses, and questions promise answers.
 

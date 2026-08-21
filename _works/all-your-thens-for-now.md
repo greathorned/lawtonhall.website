@@ -27,7 +27,7 @@ media: |
 
 #### *Dream-Variations on Mingus*
 
-*All Your Thens* for Now was commissioned by Abby Fisher and Alexv Rolfe in 2013, which now feels like a lifetime ago. Nevertheless, it remains one of my most popular pieces, and I am grateful to the many percussionists who have played it. The piece’s central anxiety—that a life-changing artistic opportunity might arrive in the form of an absurd dream and disappear before it can be captured—is still strangely familiar and deeply funny to me today. Here are the original program notes, lightly edited for clarity:
+*All Your Thens for Now* was commissioned by Abby Fisher and Alexv Rolfe in 2013, which now feels like a lifetime ago. Nevertheless, it remains one of my most popular pieces, and I am grateful to the many percussionists who have played it. The piece’s central anxiety—that a life-changing artistic opportunity might arrive in the form of an absurd dream and disappear before it can be captured—is still strangely familiar and deeply funny to me today. Here are the original program notes, lightly edited for clarity:
 
 ---
 

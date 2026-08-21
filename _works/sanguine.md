@@ -25,3 +25,14 @@ The Covid-19 pandemic reaffirmed for me that music is fundamentally a social act
 *Sanguine* is written in just intonation and draws on pitches from the natural harmonic series to create pure sonorities alongside unexpected microtonal dissonances. It is inspired by fiddling and folk idioms as well as the music of just-intonation pioneers like Ben Johnston and James Tenney.
 
 The title *Sanguine* deliberately evokes both blood and hope. During a year defined by distance and isolation, the piece became a reminder that music ultimately depends on bodies: blood in our veins, fingers on strings, vibrations in the air, and listeners gathered to hear them. It reflects both a hope for human connection and a renewed appreciation for the physical act of music-making itself.
+
+---
+
+## Study Score
+
+<div class="full-width-media score-preview">
+  <iframe 
+    height="600px" 
+    src="https://drive.google.com/file/d/1jfWjonjNrpJB7jRcDvS2UCQk0lZ-YsIA/preview">
+  </iframe>
+<div>

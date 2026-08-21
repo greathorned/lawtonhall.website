@@ -30,10 +30,21 @@ media: |
   
 ---
 
-Drum Quartet Arcana
+#### *Drum Quartet Arcana*
 
 *Codex* is a pandemic-era drum quartet that brings together my love for numerology, codes/ciphers, 1970s New Age aesthetics, and hi-hats. Throughout the first movement, *The Essence Of*, players “recite” time-stretched incantations on the hi-hats, approximating vocal formants by manipulating the cymbals’ timbres with the pedal and playing position. Other members of the quartet respond in turn with coded messages that generate slowly-evolving rhythmic material.
 
 In the second movement, *A Dialogue*, the text of a conversation between the deity Hermes and his pupil is converted into binary digits, which determine the opening and closing of hi-hats and the tom patterns.
 
 *A Dialogue* was realized remotely by four different drummers in four different states during the Sō Percussion Summer Institute 2020. *The Essence Of* was recorded at SōSI 2021.
+
+---
+
+## Study Score
+
+<div class="full-width-media score-preview">
+  <iframe 
+    height="600px" 
+    src="https://drive.google.com/file/d/1a9WYBJulWNkubUkQRG7i8tdrC8EiluC6/preview">
+  </iframe>
+<div>
