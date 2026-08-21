@@ -37,4 +37,4 @@ Cultural theorist Jonathan Sterne writes that “technologies are crystallized b
     height="600px" 
     src="https://drive.google.com/file/d/1IO_076zQ8B7BEqHQCjDhU-wlQNROk2Ac/preview">
   </iframe>
-<div>
+</div>

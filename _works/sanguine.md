@@ -35,4 +35,4 @@ The title *Sanguine* deliberately evokes both blood and hope. During a year defi
     height="600px" 
     src="https://drive.google.com/file/d/1jfWjonjNrpJB7jRcDvS2UCQk0lZ-YsIA/preview">
   </iframe>
-<div>
+</div>
