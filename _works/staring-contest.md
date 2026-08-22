@@ -35,3 +35,14 @@ Sean Williamson’s short story “Never the Hero” felt oddly familiar to me w
 The text of *Staring Contest* is built from fragments of “Never the Hero,” and these excerpts are only small windows into the story’s much larger world. Subtle electronics and contrapuntal, almost vocal-like instrumental lines suggest memories, conversations, and unseen lives that envelop the singer, hinting at a much larger world beyond the words themselves.
 
 *Staring Contest* reflects the waves of confusion, despair, and hope that flow throughout Williamson’s story. The piece is haunted by its opening question: “How can you know if someone’s dead if you’ve never seen them alive?” Memories and visions drift through the musical texture, offering moments of solace while allowing that question to linger after the final words have been sung.
+
+---
+
+## Score Preview
+
+<div class="full-width-media score-preview">
+  <iframe 
+    height="600px" 
+    src="https://drive.google.com/file/d/1o27SvsBQblJWNkbE5ZfpYjcuJtBRrpWf/preview">
+  </iframe>
+</div>
