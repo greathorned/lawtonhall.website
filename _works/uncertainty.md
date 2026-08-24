@@ -24,9 +24,9 @@ media: |
 
 *(un)certainty* portrays the challenge of confronting new information that unsettles our understanding of the natural world. Inspired by experiments in particle physics, the piece explores the uneasy process of revising long-held assumptions in the face of unexpected evidence. Each of its five movements grapples with questions that arise in the process of discovery: What does it mean to be certain of something? At what point should one abandon their assumptions? What is the difference between belief and knowledge?
 
-From “First Thoughts” to “Convictions,” “Misgivings,” “Wavers,” and “Second Thoughts,” *(un)certainty* traces a gradual erosion of certitude. Bold declarations become increasingly unstable, regular rhythms give way to shifting meters, confidence yields to hesitation, and moments of quiet reflection interrupt growing frustration. By the final movement, the marimba and electronics struggle to agree on a shared pulse that offers resolution without complete certainty.
+From “First Thoughts” to “Convictions,” “Misgivings,” “Wavers,” and “Second Thoughts,” *(un)certainty* traces a gradual erosion of certitude. Bold declarations become increasingly unstable, regular rhythms give way to shifting meters, confidence yields to hesitation, and moments of quiet reflection interrupt growing frustration. By the final movement, the marimba and electronics never quite agree on a shared pulse, leaving questions lingering and convictions unsettled.
 
-*(un)certainty* is a fluid multimedia project that has taken several forms over the years, including versions with robotic woodblocks and interactive light sculptures. The work was developed in collaboration with percussionist Abby Fisher and multimedia artist Mare Hirsch. Mare's projects responding to the Muon g-2 experiment at Fermilab inspired the central questions of the piece.
+*(un)certainty* is a fluid multimedia project that has taken several forms since 2021, including versions with robotic woodblocks and interactive light sculptures. The work was developed in collaboration with percussionist [Abby Fisher](https://www.abbyfisherpercussion.com/){:target="_blank" rel="noopener"} and multimedia artist [Mare Hirsch](https://marehirsch.com/). Mare's projects responding to the Muon g-2 experiment at Fermilab inspired the central questions of the piece.
 
 ---
 
@@ -38,3 +38,13 @@ From “First Thoughts” to “Convictions,” “Misgivings,” “Wavers,” 
   </iframe>
 </div>
 
+---
+
+## Score Preview
+
+<div class="full-width-media score-preview">
+  <iframe 
+    height="600px" 
+    src="https://drive.google.com/file/d/1vDeC2Z329ydj1s-RePVlEkm3lXErtB3p/preview">
+  </iframe>
+</div>

@@ -43,6 +43,14 @@ or images that lead to sub-sections of the site (works, practice, about, contact
 
 definitely NOT a news feed
 
+# Links
+
+use Jekyll markdown inline attribute lists for target=blank open in new tab
+
+```
+[Air Lines program notes](https://example.com/air-lines){:target="_blank" rel="noopener"}
+```
+
 # Works Pages
 
 ## Study Scores
