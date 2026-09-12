@@ -27,6 +27,7 @@ hr {
     border: 0;
     border-top: var(--rule);
     margin: 1rem 0;
+    
 }
 
 /* headings */
@@ -66,6 +67,16 @@ h4 {
 h5 {
     font-size: 1.25rem;
     font-weight: 300;
+}
+
+/* adjust margins when heading follows an hr */
+hr + h1,
+hr + h2,
+hr + h3,
+hr + h4,
+hr + h5,
+hr + h6 {
+  margin-top: 1rem;
 }
 
 /* block quote */

@@ -1,0 +1,29 @@
+.about-header {
+  display: grid;
+  grid-template-columns: minmax(250px, 400px) 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.about-headshot img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.about-bio {
+  min-width: 0; /* prevents text overflow in grid children */
+}
+
+@media (max-width: 700px) {
+  .about-header {
+    grid-template-columns: 1fr;
+  }
+
+  .about-headshot {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
