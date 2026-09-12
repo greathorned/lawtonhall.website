@@ -20,7 +20,7 @@ permalink: /works/
         | reverse %}
     {% for work in human_works %}
       <div class="work-index-item">
-        <a class="work-index-title" href="{{ work.url }}">
+        <a class="work-index-title" href="{{ work.url | relative_url }}">
           {{ work.title }}
         </a>
 
@@ -44,7 +44,7 @@ permalink: /works/
         | reverse %}
     {% for work in human_machine_works %}
       <div class="work-index-item">
-        <a class="work-index-title" href="{{ work.url }}">
+        <a class="work-index-title" href="{{ work.url | relative_url}}">
           {{ work.title }}
         </a>
 
@@ -68,7 +68,7 @@ permalink: /works/
         | reverse %}
     {% for work in machine_works %}
       <div class="work-index-item">
-        <a class="work-index-title" href="{{ work.url }}">
+        <a class="work-index-title" href="{{ work.url | relative_url }}">
           {{ work.title }}
         </a>
 
