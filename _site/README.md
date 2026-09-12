@@ -1,5 +1,7 @@
 # lawtonhall.website
 
+local url: http://localhost:4000/
+
 # Jekyll Stuff
 - make sure only one terminal is running
 - use Ctrl+C to stop the running server
