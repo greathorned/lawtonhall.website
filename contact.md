@@ -6,7 +6,7 @@ permalink: /contact/
 
 # Contact
 
-Get in touch at **lawton@lawtonhall.com** with inquiries about projects, commissions, performances, research, teaching, or sushi recipes.
+Get in touch at **lawton.g.hall@gmail.com** with inquiries about projects, commissions, performances, research, teaching, or sushi recipes.
 
 The best way to follow my work is to subscribe to my *100% spam-free* <a href = "https://lawtonhall.substack.com/" target="_blank" rel="noopener"><strong>Substack newsletter&nbsp;⭢</strong></a>
 

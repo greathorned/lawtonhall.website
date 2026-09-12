@@ -23,6 +23,13 @@ local url: http://localhost:4000/
     - e.g. navigation bar
     - LAYOUTS contain INCLUDES
 
+# Branching and Merging
+- create new branch in Github desktop (or directly in VSCode)
+- push edits when finished
+- open pull request: "Create Pull Request"
+
+Merge the PR on GitHub.com (green "Merge pull request" button), which triggers your Actions deploy. Back in GitHub Desktop, switch to main and click "Pull origin" to sync your local copy, then delete the old branch from the branch dropdown.
+
 # Style
 
 - Colors: `#D9E8E3 #F7B1AB #A36691 #DDB169`
@@ -52,6 +59,10 @@ use Jekyll markdown inline attribute lists for target=blank open in new tab
 ```
 [Air Lines program notes](https://example.com/air-lines){:target="_blank" rel="noopener"}
 ```
+
+noopener — the new tab can't access window.opener, closing that hole
+
+noreferrer — also strips the referrer info sent to the destination site (which page linked them there); optional but common to pair with noopener
 
 # Works Pages
 
