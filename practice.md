@@ -9,5 +9,5 @@ permalink: /practice/
 <!-- {% assign entries = site.practice | sort: "date" | reverse %} -->
 
 {% for entry in entries %}
-- [{{ entry.title }}]({{ entry.url }})
+- [{{ entry.title }}]({{ entry.url | relative_url }})
 {% endfor %}
