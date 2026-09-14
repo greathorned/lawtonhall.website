@@ -40,9 +40,9 @@ I am a Ph.D. student in the [Composition & Computer Technologies Program](https:
 ---
 #### _Links_
 
-- [**Third-Person Bio**](https://docs.google.com/document/d/1M7t9SxGPBIySvEkmgAl8L5jQJ3qIJnYYbDTr6g0KMQg/preview){:target="_blank" rel="noopener"}
-- [**Publicity Photos**](https://drive.google.com/drive/folders/1POAy0lt525ooiuufs95onBHR1YhmVuPC?usp=drive_link){:target="_blank" rel="noopener"}
-- [**C.V.**](https://drive.google.com/file/d/1b2z5GSSwpIf22U8BzmzJlLuAfxTrIwI5/preview){:target="_blank" rel="noopener"}
+- [**Third-Person Bio&nbsp;⭢**](https://docs.google.com/document/d/1M7t9SxGPBIySvEkmgAl8L5jQJ3qIJnYYbDTr6g0KMQg/preview){:target="_blank" rel="noopener"}
+- [**Publicity Photos&nbsp;⭢**](https://drive.google.com/drive/folders/1POAy0lt525ooiuufs95onBHR1YhmVuPC?usp=drive_link){:target="_blank" rel="noopener"}
+- [**C.V.&nbsp;⭢**](https://drive.google.com/file/d/1b2z5GSSwpIf22U8BzmzJlLuAfxTrIwI5/preview){:target="_blank" rel="noopener"}
 
 
 

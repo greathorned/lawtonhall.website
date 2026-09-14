@@ -25,10 +25,12 @@ local url: http://localhost:4000/
 
 # Branching and Merging
 - create new branch in Github desktop (or directly in VSCode)
-- push edits when finished
-- open pull request: "Create Pull Request"
-
-Merge the PR on GitHub.com (green "Merge pull request" button), which triggers your Actions deploy. Back in GitHub Desktop, switch to main and click "Pull origin" to sync your local copy, then delete the old branch from the branch dropdown.
+- commit and publish changes when finished
+- in Github Desktop: Current Branch > Pull Requests > Create Pull Request
+  - opens Github in browser
+  - confirm changes and merge (starts Github Action to publish)
+- Locally, switch to main branch, fetch, and pull
+- Optionally, delete branch when done
 
 # Style
 
@@ -38,19 +40,14 @@ Merge the PR on GitHub.com (green "Merge pull request" button), which triggers y
 
 # Future things to add
 
-Once your site matures, you'll likely add things like:
-favicon.ico
-site.webmanifest
-robots.txt
-sitemap.xml
+- favicon.ico
+- site.webmanifest
+- robots.txt
+- sitemap.xml
 
 # Home Page
 
-"frontispiece" image, like cover of a book
-
-or images that lead to sub-sections of the site (works, practice, about, contact)
-
-definitely NOT a news feed
+frontispiece image, like cover of a book
 
 # Links
 
