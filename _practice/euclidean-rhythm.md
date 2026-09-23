@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Euclidean Rhythms
+title: "Euclidean Rhythms: Maximum Evenness, Maximum Groove"
 date: 2020-08-4
 tags:
     - composition
@@ -9,7 +9,7 @@ tags:
 
 # Euclidean Rhythms: Maximum Evenness, Maximum Groove
 
-_I first posted this article on my old website in August 2020. It continues to generate interest and has been linked in unexpected places across the internet. I'm grateful that people continue to find it a useful introduction to this musical-mathematical oddity._
+_I posted this in August 2020. It's turned up in some unexpected corners of the internet ever since, and I'm glad it's still useful as an introduction to this musical-mathematical oddity._
 
 ---
 

@@ -97,6 +97,8 @@ pre {
     padding: 1rem;
     background-color: #fbe4e2;
     border-radius: 0.4rem;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
 }
 
 /* centered text */
