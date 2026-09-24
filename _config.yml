@@ -8,3 +8,12 @@ collections:
   practice:
     output: true
     permalink: /practice/:name/
+
+defaults:
+  - scope:
+      path: "talks"
+    values:
+      layout: default
+      theme: pink
+      noindex: true
+      sitemap: false
