@@ -4,6 +4,11 @@
     --font-serif: "Noto Serif", sans-serif;
     --font-sans: "Inter", sans-serif;
     --rule: 1.5px dotted currentColor;
+    --sidebar-bg: #d9e8e3;
+}
+
+[data-theme = "pink"] {
+    --sidebar-bg: #fbe4e2;
 }
 
 body {
@@ -97,6 +102,14 @@ pre {
     padding: 1rem;
     background-color: #fbe4e2;
     border-radius: 0.4rem;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+/* centered text */
+
+.centered {
+    text-align: center;
 }
 
 /* MAIN CONTAINER */
@@ -127,7 +140,7 @@ pre {
 
     padding: 3rem;
     padding-right: 0.1rem;
-    background: #d9e8e3;
+    background: var(--sidebar-bg);
 
     text-align: right;
 }
@@ -147,8 +160,8 @@ pre {
     pointer-events: none;
     background: linear-gradient(
         to right,
-        #d9e8e3 0%,
-        rgba(217, 232, 227, 0) 100%
+        var(--sidebar-bg) 0%,
+        transparent 100%
     );
 }
 
@@ -215,8 +228,8 @@ pre {
 
         background: linear-gradient(
             to bottom,
-            #d9e8e3 0%,
-            rgba(217, 232, 227, 0) 100%
+            var(--sidebar-bg) 0%,
+            transparent 100%
         );
     }
 
