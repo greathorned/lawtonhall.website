@@ -1,5 +1,8 @@
 title: Lawton Hall
 
+url: "https://www.lawtonhall.com"
+baseurl: ""
+
 collections:
   works:
     output: true
