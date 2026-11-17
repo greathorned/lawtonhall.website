@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap" rel="stylesheet">
+
+        <title>{{ page.title }} — Click Tracks | {{ site.title }}</title>
+
+        <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+        <link rel="stylesheet" href="{{ '/assets/clicks/player.css' | relative_url }}">
+    </head>
+
+    <body class="click-page"{% if page.theme %} data-theme="{{ page.theme }}"{% endif %}>
+        <div class="click-app">
+
+            <div class="click-site-link">
+                <a href="{{ '/' | relative_url }}">Lawton&nbsp;Hall</a>
+            </div>
+
+            <header class="click-header">
+                <h1 class="click-title">{{ page.title }}</h1>
+                {% if page.composer %}<div class="click-composer">{{ page.composer }}</div>{% endif %}
+                {% if page.revised %}<div class="click-date">Click tracks revised {{ page.revised | date: "%B %-d, %Y" }}</div>{% endif %}
+                {% if page.notes %}<div class="click-notes">{{ page.notes | markdownify }}</div>{% endif %}
+            </header>
+
+            <div class="click-type-control">
+                <label for="clickType">Click Sound</label>
+                <select id="clickType"></select>
+            </div>
+
+            <div id="movementList"></div>
+
+            {{ content }}
+
+        </div>
+
+        <script>
+            window.CLICK_PIECE = {{ page.piece | jsonify }};
+            window.CLICK_BASEURL = {{ site.baseurl | default: "" | jsonify }};
+        </script>
+        <script src="{{ '/assets/clicks/player.js' | relative_url }}"></script>
+    </body>
+</html>

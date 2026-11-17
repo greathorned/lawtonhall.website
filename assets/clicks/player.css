@@ -1,0 +1,141 @@
+/* CLICK TRACK PAGES
+   Loaded after site.css, so fonts, links, headings and the
+   --sidebar-bg / --rule tokens (including data-theme variants) carry over. */
+
+.click-page {
+    background-color: var(--sidebar-bg);
+    min-height: 100vh;
+}
+
+.click-page * {
+    box-sizing: border-box;
+}
+
+.click-app {
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1.5rem 2rem 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+}
+
+@media (max-width: 640px) {
+    .click-app {
+        margin: 0 auto;
+        padding: 1rem 16px 2rem;
+        border-radius: 0;
+    }
+}
+
+/* small link home, standing in for the sidebar */
+.click-site-link {
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    padding-bottom: 0.5rem;
+    border-bottom: var(--rule);
+}
+
+/* piece header */
+.click-header {
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: var(--rule);
+}
+
+.click-title {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    margin: 1.5rem 0 0.5rem;
+}
+
+.click-composer {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.click-date {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.click-notes p {
+    margin: 0.5rem 0;
+}
+
+/* click sound selector */
+.click-type-control {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.click-type-control label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.click-type-control select {
+    font: inherit;
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+}
+
+/* movement */
+.movement + .movement {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: var(--rule);
+}
+
+.movement h2 {
+    margin-top: 0;
+}
+
+.movement audio {
+    width: 100%;
+}
+
+.speedControl {
+    margin: 0.75rem 0 1.25rem;
+    width: 100%;
+}
+
+.speedHeader {
+    font-size: 0.9rem;
+}
+
+.speedControl input[type="range"] {
+    width: 100%;
+}
+
+/* cue buttons */
+.cueList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cueList button {
+    font: inherit;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 1.1rem 1.2rem;
+    width: 100%;
+    color: inherit;
+    background-color: var(--sidebar-bg);
+    border: 0;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.cueList button:hover {
+    filter: brightness(0.95);
+}
+
+.cueList button:active {
+    filter: brightness(0.9);
+}
