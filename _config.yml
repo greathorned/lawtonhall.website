@@ -12,11 +12,23 @@ collections:
     output: true
     permalink: /practice/:name/
 
+  clicks:
+    output: true
+    permalink: /clicks/:name/
+
 defaults:
   - scope:
       path: "talks"
     values:
       layout: default
       theme: pink
+      noindex: true
+      sitemap: false
+
+  - scope:
+      path: ""
+      type: clicks
+    values:
+      layout: click
       noindex: true
       sitemap: false
